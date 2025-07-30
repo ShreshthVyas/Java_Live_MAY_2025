@@ -4,7 +4,7 @@ public class PalindromPartition {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s = "naman";
+		String s = "aab";
 		part(s,"");
 	}
 
