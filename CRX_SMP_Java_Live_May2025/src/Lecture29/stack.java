@@ -2,12 +2,11 @@ package Lecture29;
 
 public class stack {
 
-	private int arr[];
-	private int top =-1;
+	protected int arr[];
+	protected int top =-1;
 	
 	public stack() {
 		this.arr = new int[5];
-		
 	}
 	public stack(int size) {
 		this.arr= new int[size];
