@@ -1,7 +1,7 @@
 package Lecture35;
 
 public class CycleRemovalClient {
-
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		CycleRemoval ll = new CycleRemoval();
@@ -17,5 +17,4 @@ public class CycleRemovalClient {
 		ll.Display();
 		
 	}
-
 }
