@@ -10,10 +10,11 @@ public class BinarySearchClient {
 //		System.out.println(bt.Find(400));
 //		System.out.println(bt.Height());
 //		bt.Display();
-		bt.PreOrder();
-		bt.InOrder();
-		bt.PostOrder();
-		bt.LevelOrder();
+//		bt.PreOrder();
+//		bt.InOrder();
+//		bt.PostOrder();
+		bt.LevelOrderLevelWise();
+		
 	}
 
 }

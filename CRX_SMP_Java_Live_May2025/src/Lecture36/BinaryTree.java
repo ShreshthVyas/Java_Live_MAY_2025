@@ -199,8 +199,32 @@ public class BinaryTree {
 			if(temp.right!=null) {
 				q.add(temp.right);
 			}
-		}
+		}	
+	}
+	
+	public void LevelOrderLevelWise() {
+		Queue<Node> q = new LinkedList<>();
+		Queue<Node> h = new LinkedList<>();
+		q.add(root);
 		
+		while(!q.isEmpty()) {
+			Node temp = q.remove();
+			System.out.print(temp.data+" ");
+			
+			if(temp.right!=null) {
+				h.add(temp.right);
+			}
+			if(temp.left!=null) {
+				h.add(temp.left);
+			}
+			
+			
+			if(q.isEmpty()) {
+				System.out.println();
+				q = h;
+				h =  new LinkedList<>();
+			}
+		}
 		
 	}
 	
